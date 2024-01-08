@@ -1,6 +1,6 @@
 #Genetic Algorithms and Machine Learning for Programmers
 <br/>
-<sub>Author: [mike-shields-dev](https://github.com/mike-shields-dev) | [Michael Shields](https://www.michael-shields.co.uk/)</sub>
+<sub>Author: <a href="https://github.com/mike-shields-dev">mike-shields-dev</a> | <a href="https://www.michael-shields.co.uk">michael-shields.co.uk</a></sub>
 
 ## About
 
