@@ -1,7 +1,4 @@
-import turtle as t
-
-
-def draw_bag():
+def draw_bag(t):
     t.pen(pencolor='brown', pensize=5)
     t.penup()
     t.goto(-35, 35)
@@ -12,3 +9,4 @@ def draw_bag():
     t.forward(70)
     t.left(90)
     t.forward(70)
+    t.penup()
