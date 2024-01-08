@@ -3,6 +3,8 @@ import random
 from .escape import has_escaped
 from .store_position_data import store_position_data
 
+# Uses the turtle to draw a spiral
+# until the turtles position is outside the bag
 
 def draw_spiral(t):
     t.penup()

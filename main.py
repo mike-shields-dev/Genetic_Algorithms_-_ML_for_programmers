@@ -9,10 +9,12 @@ from Chapter1_Escape.draw_squares import draw_squares_and_dump_history
 def attempt_escape(t):
     t.shape('turtle')
     t.pen(pencolor='green', pensize=2)
-    
+
+    # Use the various methods of escape
     draw_line(t)
     draw_squares_and_dump_history(t, 100)
     draw_spiral(t)
+
 
 if __name__ == "__main__":
     t = turtle.Turtle()

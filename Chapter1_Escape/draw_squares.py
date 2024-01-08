@@ -1,9 +1,7 @@
 from .escape import has_escaped
+from .store_position_data import store_position_data
 
-
-def store_position_data(t, history):
-    [posX, posY] = t.position()
-    history.append([posX, posY, has_escaped([posX, posY])])
+# Use turtle to draw a single square
 
 def draw_square(t, size):
     history = []
@@ -15,6 +13,9 @@ def draw_square(t, size):
         store_position_data(t, history)
     t.penup()
     return history
+
+# Use turtle to draw concentric squares 
+# until the turtles position is outside of the bag
 
 def draw_squares(t, count, step_size):
     history = []
