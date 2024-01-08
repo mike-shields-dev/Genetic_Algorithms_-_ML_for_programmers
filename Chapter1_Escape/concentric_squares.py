@@ -1,9 +1,6 @@
 from .escape import has_escaped
+from .store_position_data import store_position_data
 
-
-def store_position_data(t, history):
-    [posX, posY] = t.position()
-    history.append([posX, posY, has_escaped([posX, posY])])
 
 def draw_square(t, size):
     history = []
@@ -31,6 +28,6 @@ def draw_concentric_squares_until_escaped(t, count, step_size):
 
 def draw_concentric_squares(t, count):
     history = draw_concentric_squares_until_escaped(t, count, 10)
-    with open("data_square", "wb") as file:
+    with open("data_concentric_squares", "wb") as file:
         import pickle
         pickle.dump(history, file)

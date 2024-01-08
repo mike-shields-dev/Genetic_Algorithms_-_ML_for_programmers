@@ -8,7 +8,8 @@ def store_position_data(t, history):
 def draw_square(t, size):
     history = []
     t.pendown()
-    for _ in range(4):
+    sides = 4
+    for _ in range(sides):
         t.forward(size)
         t.left(90)
         store_position_data(t, history)
@@ -29,9 +30,7 @@ def draw_squares(t, count, step_size):
         i += 1
     return history
 
-def draw_squares_until_escaped(t, count):
-    t.shape('turtle')
-    t.pen(pencolor='green', pensize=2)
+def draw_squares_and_dump_history(t, count):
     history = draw_squares(t, count, 10)
     with open("data_square", "wb") as file:
         import pickle
