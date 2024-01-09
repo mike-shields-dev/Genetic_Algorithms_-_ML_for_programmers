@@ -2,7 +2,7 @@
 name = "Genetic_Algorithms_-_ML_for_programmers"
 version = "0.1.0"
 description = ""
-authors = ["https://github.com/mike-shields-dev | https://www.michael-shields.co.uk/"]
+authors = ["https://github.com/mike-shields-dev | https://www.michael-shields.co.uk"]
 
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.11"
