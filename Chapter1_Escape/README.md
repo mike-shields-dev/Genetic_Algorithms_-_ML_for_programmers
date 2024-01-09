@@ -30,8 +30,8 @@ To run the `draw_squares` algorithm:
 
 To run the `draw_spirals` algorithm:
 ```bash
-> python3 -m Chapter1_Escape.main --function=squares
-> python3 -m Chapter1_Escape.main -f=squares
+> python3 -m Chapter1_Escape.main --function=spirals
+> python3 -m Chapter1_Escape.main -f=spirals
 ```
 
 In addition, a `-n` or `--number` flag can be used to determine the number of repetitions of the `squares` and `spirals` algorithms. 
@@ -40,9 +40,9 @@ For example:
 
 To run the `draw_spirals` algorithm 5 times:
 ```bash
-> python3 -m Chapter1_Escape.main --function=squares -n=5
+> python3 -m Chapter1_Escape.main --function=spirals -n=5
 ```
 
 ```bash
-> python3 -m Chapter1_Escape.main -f=squares --number=5
+> python3 -m Chapter1_Escape.main -f=spirals --number=5
 ```
