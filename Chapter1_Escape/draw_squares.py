@@ -27,7 +27,7 @@ def draw_squares(t, count, step_size):
     t.penup()
     t.home()
     i = 1
-    while i < count:
+    while i < count + 1:
         t.penup()
         t.goto(-i * step_size / 2, -i * step_size / 2)
         if has_escaped(t.position()):
