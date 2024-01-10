@@ -47,6 +47,3 @@ To run the `draw_spirals` algorithm 5 times:
 > python3 -m Chapter1_Escape.main -f=spirals --number=5
 ```
 
-## Challenges 
-
-The book code examples are quite vague, i.e. omitting which libraries to import and how to structure directories and implement certain aspects of the algorithms.
